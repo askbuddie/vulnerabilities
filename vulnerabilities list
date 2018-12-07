@@ -1,1 +1,12 @@
-Top Vulnerabilities:
+Top Web Application Security Vulnerabilities:
+Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS
+SQL Injection (SQLi)
+Cross-site Request Forgery (CSRF)
+Server Side Request Forgery (SSRF)
+Remote File Inclusion (RFI)
+Local File Inclusion (LFI)
+Remote Code Execution (RCE)
+CRLF Injection
+LDAP Injection
+
+Top Mobile Application Security Vulnerabilities:
