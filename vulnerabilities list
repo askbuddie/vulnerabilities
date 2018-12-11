@@ -1,12 +1,48 @@
-Top Web Application Security Vulnerabilities:
-Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS
-SQL Injection (SQLi)
-Cross-site Request Forgery (CSRF)
-Server Side Request Forgery (SSRF)
-Remote File Inclusion (RFI)
-Local File Inclusion (LFI)
-Remote Code Execution (RCE)
-CRLF Injection
-LDAP Injection
+# Top Web Application Security Vulnerabilities:
+
+** Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:
+
+   - A type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side 
+   scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass 
+   access controls such as the same-origin policy.
+
+/*========================================*/
+
+** SQL Injection (SQLi)
+
+   - SQL injection is a code injection technique that might destroy your database. It is one of the most common 
+   web hacking techniques. It is the placement of malicious code in SQL statements, via web page input. SQL injection usually occurs 
+   when you ask a user for input, like their username/userid, and instead of a name/id, the user gives you an SQL statement 
+   that you will unknowingly run on your database.
+
+/*========================================*/
+
+** Cross-site Request Forgery (CSRF)
+
+/*========================================*/
+
+** Server Side Request Forgery (SSRF)
+
+/*========================================*/
+
+** Remote File Inclusion (RFI)
+
+/*========================================*/
+
+** Local File Inclusion (LFI)
+
+/*========================================*/
+
+** Remote Code Execution (RCE)
+
+/*========================================*/
+
+** CRLF Injection
+
+/*========================================*/
+
+** LDAP Injection
+
+/*========================================*/
 
 Top Mobile Application Security Vulnerabilities:
