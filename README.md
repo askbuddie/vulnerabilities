@@ -5,11 +5,23 @@
 
 ### Table Of Content
 - [Web Vulnerabilities](#web-vulnerabilities)
-- [Web Application Security Vulnerabilities](#web-application-security-vulnerabilities)
-  - [Cross-site Scripting (XSS)](#cross-site-scripting-xss-reflected-persistent-and-dom-based-xss)
+  - [Web Application Security Vulnerabilities](#web-application-security-vulnerabilities)
+  - [Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:](#cross-site-scripting-xss-reflected-persistent-and-dom-based-xss)
   - [SQL Injection (SQLi)](#sql-injection-sqli)
   - [Cross-site Request Forgery (CSRF)](#cross-site-request-forgery-csrf)
   - [Server Side Request Forgery (SSRF)](#server-side-request-forgery-ssrf)
+  - [Remote File Inclusion (RFI)](#remote-file-inclusion-rfi)
+  - [Local File Inclusion (LFI)](#local-file-inclusion-lfi)
+  - [Remote Code Execution (RCE)](#remote-code-execution-rce)
+  - [CRLF Injection](#crlf-injection)
+  - [LDAP Injection](#ldap-injection)
+- [Top Mobile Application Security Vulnerabilities:](#top-mobile-application-security-vulnerabilities)
+  - [Weak Server Side Controls](#weak-server-side-controls)
+  - [Lack of Binary Protections](#lack-of-binary-protections)
+  - [Insecure Data Storage](#insecure-data-storage)
+  - [Unintended Data Leakage](#unintended-data-leakage)
+  - [Poor Authorization and Authentication](#poor-authorization-and-authentication)
+
 
 
 ## Web Vulnerabilities
@@ -52,5 +64,48 @@ in the account of the victim. It is more like : Malicious form --> victim submit
 ### Server Side Request Forgery (SSRF)
 
 It is a type of vulnerability where an attacker can request the internal resources which are mostly behind the NAT and firewall and aren't accessbile remotely. It is also a result of unsanitized user input directly being used in the code. An attacker can call the response for /etc/passwd, /etc/shadow, files which are unix password files alongside the resources in the localhost.
+
+----
+
+
+### Remote File Inclusion (RFI)
+
+----
+
+### Local File Inclusion (LFI)
+
+----
+
+### Remote Code Execution (RCE)
+
+----
+
+### CRLF Injection
+
+----
+
+### LDAP Injection
+
+----
+
+## Top Mobile Application Security Vulnerabilities:
+
+### Weak Server Side Controls
+
+----
+
+### Lack of Binary Protections
+
+----
+
+### Insecure Data Storage
+
+----
+
+### Unintended Data Leakage
+
+----
+
+### Poor Authorization and Authentication
 
 ----
