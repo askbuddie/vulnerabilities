@@ -70,21 +70,34 @@ It is a type of vulnerability where an attacker can request the internal resourc
 
 ### Remote File Inclusion (RFI)
 
+  Remote File Inclusion. Remote File Include (RFI) is an attack technique used to exploit "dynamic file include" mechanisms in web applications.
+ When web applications take user input (URL, parameter value, etc.) and pass them into file include commands, the web application might be tricked 
+ into including remote files with malicious code.
+
 ----
 
 ### Local File Inclusion (LFI)
+
+Local File Inclusion (LFI) allows an attacker to include files on a server through the web browser. This vulnerability exists when a web application includes a file without correctly sanitising the input, allowing and attacker to manipulate the input and inject path traversal characters and include other files from the web server.
 
 ----
 
 ### Remote Code Execution (RCE)
 
+Remote code execution can be best described as an action which involves an attacker executing code remotely using system vulnerabilities. Such code can run
+ from a remote server, which means that the attack can originate from anywhere around the world giving the attacker access to the PC.
+
 ----
 
 ### CRLF Injection
+A CRLF injection attack is one of several types of injection attacks.It can be used to escalate to more malicious attacks such as Cross-site Scripting (XSS),
+page injection, web cache poisoning, cache-based defacement, and more.
 
 ----
 
 ### LDAP Injection
+
+LDAP Injection is an attack used to exploit web based applications that construct LDAP statements based on user input. When an application fails to properly sanitize user input, it's possible to modify LDAP statements using a local proxy. 
 
 ----
 
