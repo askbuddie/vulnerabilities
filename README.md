@@ -4,8 +4,7 @@
 
 
 ### Table Of Content
-- [Web Vulnerabilities](#web-vulnerabilities)
-  - [Web Application Security Vulnerabilities](#web-application-security-vulnerabilities)
+- [Web Application Security Vulnerabilities](#web-application-security-vulnerabilities)
   - [Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:](#cross-site-scripting-xss-reflected-persistent-and-dom-based-xss)
   - [SQL Injection (SQLi)](#sql-injection-sqli)
   - [Cross-site Request Forgery (CSRF)](#cross-site-request-forgery-csrf)
@@ -15,7 +14,7 @@
   - [Remote Code Execution (RCE)](#remote-code-execution-rce)
   - [CRLF Injection](#crlf-injection)
   - [LDAP Injection](#ldap-injection)
-- [Top Mobile Application Security Vulnerabilities:](#top-mobile-application-security-vulnerabilities)
+- [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
   - [Lack of Binary Protections](#lack-of-binary-protections)
   - [Insecure Data Storage](#insecure-data-storage)
@@ -24,17 +23,13 @@
 
 
 
-## Web Vulnerabilities
-- SQL Injections
+## Web Application Security Vulnerabilities
+- SQL Injection
 - Cross Site Scripting (XSS)
 - Broken Authentication & Session Management
 - Insecure Direct Object References
 - Security Misconfiguration
 - Cross-Site Request Forgery(CSRF)
-
-
-
-## Web Application Security Vulnerabilities
 
 
 ### Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:
@@ -101,7 +96,7 @@ LDAP Injection is an attack used to exploit web based applications that construc
 
 ----
 
-## Top Mobile Application Security Vulnerabilities:
+## Mobile Application Security Vulnerabilities:
 
 ### Weak Server Side Controls
 
