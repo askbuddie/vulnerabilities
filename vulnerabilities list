@@ -61,6 +61,13 @@
 
 /*========================================*/
 
+** HTTP Request Smuggling
+
+- HTTP Request Smuggling is technique for interfering the way a website processes sequences of HTTP requests that are received from one or morw users.
+It is only possible on POST Method.
+
+/*========================================*/
+
 Top Mobile Application Security Vulnerabilities:
 
 ** Weak Server Side Controls

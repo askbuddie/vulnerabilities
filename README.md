@@ -14,6 +14,7 @@
   - [Remote Code Execution (RCE)](#remote-code-execution-rce)
   - [CRLF Injection](#crlf-injection)
   - [LDAP Injection](#ldap-injection)
+  - [HTTP Request Smuggling](#http-request-smuggling)
 - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
   - [Lack of Binary Protections](#lack-of-binary-protections)
@@ -94,6 +95,11 @@ page injection, web cache poisoning, cache-based defacement, and more.
 
 LDAP Injection is an attack used to exploit web based applications that construct LDAP statements based on user input. When an application fails to properly sanitize user input, it's possible to modify LDAP statements using a local proxy. 
 
+----
+### HTTP Request Smuggling
+
+HTTP Request Smuggling is technique for interfering the way a website processes sequences of HTTP requests that are received from one or morw users.
+It is only possible on POST Method.
 ----
 
 ## Mobile Application Security Vulnerabilities:
