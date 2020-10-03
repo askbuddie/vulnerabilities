@@ -15,12 +15,13 @@
   - [CRLF Injection](#crlf-injection)
   - [LDAP Injection](#ldap-injection)
   - [LDAP Injection](#ldap-injection)
+  - [AXFR Vulnerability](#misconfigured-dNS)
 - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
   - [Lack of Binary Protections](#lack-of-binary-protections)
   - [Insecure Data Storage](#insecure-data-storage)
   - [Unintended Data Leakage](#unintended-data-leakage)
-  - [AXFR Vulnerability](#misconfigured-dNS)
+  
 
 
 
