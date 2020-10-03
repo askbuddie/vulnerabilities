@@ -14,7 +14,6 @@
   - [Remote Code Execution (RCE)](#remote-code-execution-rce)
   - [CRLF Injection](#crlf-injection)
   - [LDAP Injection](#ldap-injection)
-  - [LDAP Injection](#ldap-injection)
   - [DNS Zone Transfer](dns-zone-transfer)
 - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
@@ -97,7 +96,11 @@ page injection, web cache poisoning, cache-based defacement, and more.
 LDAP Injection is an attack used to exploit web based applications that construct LDAP statements based on user input. When an application fails to properly sanitize user input, it's possible to modify LDAP statements using a local proxy. 
 
 ----
+### DNS Zone Transfer (AXFR Vulnerability)
+AXFR offers no authentication, so any client can ask a DNS server for a copy of the entire zone. This means that unless some kind of protection is introduced, an attacker can get a list of all hosts for a domain, 
+which gives them a lot of potential attack vectors.
 
+----
 ## Mobile Application Security Vulnerabilities:
 
 ### Weak Server Side Controls
