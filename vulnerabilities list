@@ -61,6 +61,12 @@
 
 /*========================================*/
 
+** Failure to restrict URL Access
+- Making use of this vulnerability, attacker can gain access to the unauthorized URLs, without logging into the application and exploit the vulnerability.
+An attacker can access sensitive pages, invoke functions and view confidential information.
+
+/*========================================*/
+
 Top Mobile Application Security Vulnerabilities:
 
 ** Weak Server Side Controls
