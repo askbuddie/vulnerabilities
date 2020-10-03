@@ -23,6 +23,7 @@
     - [Insecure Direct Object References](#insecure-direct-object-references)
     - [Server-Side Template Injection](#server-side-template-injection)
     - [DNS Zone Transfer (AXFR Vulnerability)](#dns-zone-transfer-axfr-vulnerability)
+     - [HTTP Request Smuggling](#http-request-smuggling)
   - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
     - [Weak Server Side Controls](#weak-server-side-controls)
     - [Lack of Binary Protections](#lack-of-binary-protections)
@@ -163,6 +164,13 @@ Template engines are widely used by web applications to present dynamic data via
 ### DNS Zone Transfer (AXFR Vulnerability)
 AXFR offers no authentication, so any client can ask a DNS server for a copy of the entire zone. This means that unless some kind of protection is introduced, an attacker can get a list of all hosts for a domain, 
 which gives them a lot of potential attack vectors.
+
+----
+
+### HTTP Request Smuggling
+
+HTTP Request Smuggling is technique for interfering the way a website processes sequences of HTTP requests that are received from one or morw users.
+It is only possible on POST Method.
 
 ----
 
