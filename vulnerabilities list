@@ -111,6 +111,8 @@
  - Using this vulnerability, an attacker can gain access to unauthorized internal objects,
  can modify data or compromise the application.
 
+/*========================================*/
+
 Top Mobile Application Security Vulnerabilities:
 
 ** Weak Server Side Controls
