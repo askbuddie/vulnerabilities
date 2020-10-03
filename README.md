@@ -20,6 +20,7 @@
   - [Insecure Data Storage](#insecure-data-storage)
   - [Unintended Data Leakage](#unintended-data-leakage)
   - [Poor Authorization and Authentication](#poor-authorization-and-authentication)
+  - [Server-Side Template Injection (SSTI)](#server-side-template-injection-ssti)
 
 
 
@@ -30,7 +31,7 @@
 - Insecure Direct Object References
 - Security Misconfiguration
 - Cross-Site Request Forgery(CSRF)
-
+-Server-Side Template Injection
 
 ### Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:
 
@@ -93,6 +94,12 @@ page injection, web cache poisoning, cache-based defacement, and more.
 ### LDAP Injection
 
 LDAP Injection is an attack used to exploit web based applications that construct LDAP statements based on user input. When an application fails to properly sanitize user input, it's possible to modify LDAP statements using a local proxy. 
+
+----
+
+### Server-Side Template Injection
+
+Template engines are widely used by web applications to present dynamic data via web pages and emails. Unsafely embedding user input in templates enables Server-Side Template Injection, a frequently critical vulnerability that is extremely easy to mistake for Cross-Site Scripting (XSS), or miss entirely. Unlike XSS, Template Injection can be used to directly attack web servers' internals and often obtain Remote Code Execution (RCE), turning every vulnerable application into a potential pivot point. 
 
 ----
 
