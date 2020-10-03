@@ -56,14 +56,26 @@
 /*========================================*/
 
 ** LDAP Injection
-- LDAP Injection is an attack used to exploit web based applications that construct LDAP statements based on user input. When an application fails to properly sanitize user input,
- it's possible to modify LDAP statements using a local proxy. 
+ - LDAP Injection is an attack used to exploit web based applications that construct LDAP statements based on user input. When an application fails to properly sanitize user input,
+ it's possible to modify LDAP statements using a local proxy.
 
 /*========================================*/
 
 ** Failure to restrict URL Access
-- Making use of this vulnerability, attacker can gain access to the unauthorized URLs, without logging into the application and exploit the vulnerability.
-An attacker can access sensitive pages, invoke functions and view confidential information.
+ - Making use of this vulnerability, attacker can gain access to the unauthorized URLs, without logging into the application and exploit the vulnerability.
+ An attacker can access sensitive pages, invoke functions and view confidential information.
+
+/*========================================*/
+
+** Insufficient Transport Layer Protection
+ - Making use of this web security vulnerability, an attacker can sniff legitimate user's credentials and gaining access to the application.
+ Can steal credit card information.
+
+/*========================================*/
+
+** Unvalidated Redirects and Forwards
+ - An attacker can send a URL to the user that contains a genuine URL appended with encoded malicious URL.
+ A user by just seeing the genuine part of the attacker sent URL can browse it and may become a victim.
 
 /*========================================*/
 
