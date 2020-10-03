@@ -14,7 +14,7 @@
   - [Remote Code Execution (RCE)](#remote-code-execution-rce)
   - [CRLF Injection](#crlf-injection)
   - [LDAP Injection](#ldap-injection)
-  - [Server-Side Template Injection (SSTI)](#server-side-template-injection-ssti)
+  - [Server-Side Template Injection (SSTI)](#server-side-template-injection)
 - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
   - [Lack of Binary Protections](#lack-of-binary-protections)
