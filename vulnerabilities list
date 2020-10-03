@@ -74,8 +74,13 @@
 /*========================================*/
 
 ** Unvalidated Redirects and Forwards
- - An attacker can send a URL to the user that contains a genuine URL appended with encoded malicious URL.
- A user by just seeing the genuine part of the attacker sent URL can browse it and may become a victim.
+  - An attacker can send a URL to the user that contains a genuine URL appended with encoded malicious URL.
+  A user by just seeing the genuine part of the attacker sent URL can browse it and may become a victim.
+
+/*========================================*/
+
+** Insecure Cryptographic Storage
+ - By using this vulnerability, an attacker can steal, modify such weakly protected data to conduct identity theft, credit card fraud or other crimes.
 
 /*========================================*/
 
