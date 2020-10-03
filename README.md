@@ -20,6 +20,7 @@
     - [Insecure Cryptographic Storage](#insecure-cryptographic-storage)
     - [Security Misconfiguration](#security-misconfiguration)
     - [Insecure Direct Object References](#insecure-direct-object-references)
+    - [Server-Side Template Injection](#server-side-template-injection)
   - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
     - [Weak Server Side Controls](#weak-server-side-controls)
     - [Lack of Binary Protections](#lack-of-binary-protections)
@@ -150,6 +151,14 @@ It occurs when a developer exposes a reference to an internal implementation obj
 The attacker can use this information to access other objects and can create a future attack to access the unauthorized data.
 Using this vulnerability, an attacker can gain access to unauthorized internal objects,
 can modify data or compromise the application.
+
+----
+
+### Server-Side Template Injection
+
+Template engines are widely used by web applications to present dynamic data via web pages and emails. Unsafely embedding user input in templates enables Server-Side Template Injection, a frequently critical vulnerability that is extremely easy to mistake for Cross-Site Scripting (XSS), or miss entirely. Unlike XSS, Template Injection can be used to directly attack web servers' internals and often obtain Remote Code Execution (RCE), turning every vulnerable application into a potential pivot point. 
+
+----
 
 ## Mobile Application Security Vulnerabilities:
 
