@@ -4,6 +4,7 @@
 
 
 ### Table Of Content
+
   - [Web Application Security Vulnerabilities](#web-application-security-vulnerabilities)
     - [Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:](#cross-site-scripting-xss-reflected-persistent-and-dom-based-xss)
     - [SQL Injection (SQLi)](#sql-injection-sqli)
@@ -21,15 +22,14 @@
     - [Security Misconfiguration](#security-misconfiguration)
     - [Insecure Direct Object References](#insecure-direct-object-references)
     - [Server-Side Template Injection](#server-side-template-injection)
+    - [DNS Zone Transfer (AXFR Vulnerability)](#dns-zone-transfer-axfr-vulnerability)
   - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
     - [Weak Server Side Controls](#weak-server-side-controls)
     - [Lack of Binary Protections](#lack-of-binary-protections)
     - [Insecure Data Storage](#insecure-data-storage)
     - [Unintended Data Leakage](#unintended-data-leakage)
     - [Poor Authorization and Authentication](#poor-authorization-and-authentication)
-
-
-
+    
 
 ## Web Application Security Vulnerabilities
 - SQL Injection
@@ -157,6 +157,12 @@ can modify data or compromise the application.
 ### Server-Side Template Injection
 
 Template engines are widely used by web applications to present dynamic data via web pages and emails. Unsafely embedding user input in templates enables Server-Side Template Injection, a frequently critical vulnerability that is extremely easy to mistake for Cross-Site Scripting (XSS), or miss entirely. Unlike XSS, Template Injection can be used to directly attack web servers' internals and often obtain Remote Code Execution (RCE), turning every vulnerable application into a potential pivot point. 
+
+----
+
+### DNS Zone Transfer (AXFR Vulnerability)
+AXFR offers no authentication, so any client can ask a DNS server for a copy of the entire zone. This means that unless some kind of protection is introduced, an attacker can get a list of all hosts for a domain, 
+which gives them a lot of potential attack vectors.
 
 ----
 
