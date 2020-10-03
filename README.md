@@ -14,12 +14,13 @@
   - [Remote Code Execution (RCE)](#remote-code-execution-rce)
   - [CRLF Injection](#crlf-injection)
   - [LDAP Injection](#ldap-injection)
+  - [LDAP Injection](#ldap-injection)
 - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
   - [Lack of Binary Protections](#lack-of-binary-protections)
   - [Insecure Data Storage](#insecure-data-storage)
   - [Unintended Data Leakage](#unintended-data-leakage)
-  - [Poor Authorization and Authentication](#poor-authorization-and-authentication)
+  - [AXFR Vulnerability](#misconfigured-dNS)
 
 
 
