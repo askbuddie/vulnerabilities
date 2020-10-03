@@ -61,8 +61,6 @@
 
 /*========================================*/
 
-/*========================================*/
-
 ** DNS Zone Transfer (AXFR Vulnerability)
 - AXFR offers no authentication, so any client can ask a DNS server for a copy of the entire zone. This means that unless some kind of protection is introduced, an attacker can get a list of all hosts for a domain, 
 which gives them a lot of potential attack vectors.
