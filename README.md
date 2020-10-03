@@ -23,7 +23,9 @@
     - [Insecure Direct Object References](#insecure-direct-object-references)
     - [Server-Side Template Injection](#server-side-template-injection)
     - [DNS Zone Transfer (AXFR Vulnerability)](#dns-zone-transfer-axfr-vulnerability)
+    - [XML Injection](#xml-injection)
      - [HTTP Request Smuggling](#http-request-smuggling)
+    }
   - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
     - [Weak Server Side Controls](#weak-server-side-controls)
     - [Lack of Binary Protections](#lack-of-binary-protections)
@@ -39,6 +41,8 @@
 - Insecure Direct Object References
 - Security Misconfiguration
 - Cross-Site Request Forgery(CSRF)
+- Server-Side Template Injection
+- XML Injection
 
 
 ### Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:
@@ -171,6 +175,12 @@ which gives them a lot of potential attack vectors.
 
 HTTP Request Smuggling is technique for interfering the way a website processes sequences of HTTP requests that are received from one or morw users.
 It is only possible on POST Method.
+
+----
+
+### XML Injection
+
+XML Injection is an attack technique used to manipulate or compromise the logic of an XML application or service. The injection of unintended XML content and/or structures into an XML message can alter the intend logic of the application. Further, XML injection can cause the insertion of malicious content into the resulting message/document.
 
 ----
 
