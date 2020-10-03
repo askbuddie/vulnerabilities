@@ -14,6 +14,8 @@
   - [Remote Code Execution (RCE)](#remote-code-execution-rce)
   - [CRLF Injection](#crlf-injection)
   - [LDAP Injection](#ldap-injection)
+  - [IDOR](#idor)
+  
 - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
   - [Lack of Binary Protections](#lack-of-binary-protections)
@@ -93,6 +95,21 @@ page injection, web cache poisoning, cache-based defacement, and more.
 ### LDAP Injection
 
 LDAP Injection is an attack used to exploit web based applications that construct LDAP statements based on user input. When an application fails to properly sanitize user input, it's possible to modify LDAP statements using a local proxy. 
+
+----
+
+### IDOR
+**Insecure Direct Object Reference**, commonly known as IDOR is a type of access control vulnerability that takes place when an application uses the user-supplied input to access objects directly, without any fitering measures applied.  Generally, there are many variables which are often sent as HTTP parameters, commonly found in cookies or headers. An attacker can access, edit and modify or even delete the other's user object by simply changing the values of those parameters. IDOR vulnerability is as severe as **XSS** and **CSRF** and is a type of vulnerability not easily discovered by automated testing.
+
+For ex: let's take a simple URL of an ecommerce site:
+
+`https://www.myinsecureecommerce.com/page/user1/324`
+
+Now, if someone could change the `user1` to values such as `user2` and get access to other users account, then the attacker can potentially obtain user credentials and other sensitive data. 
+
+So, with this an attacker can get access to other account which clearly is an access-control vulnerability.
+
+
 
 ----
 

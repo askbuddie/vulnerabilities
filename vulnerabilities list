@@ -61,6 +61,13 @@
 
 /*========================================*/
 
+** IDOR (Insecure Direct Object Reference)
+- Insecucre Direct Object Reference, commonly known as IDOR is a type of access control vulnerability that takes place when an application uses the user-supplied input to access objects directly, without any fitering measures applied.  
+ Generally, there are many variables which are often sent as HTTP parameters found in Cookies or headers. An attacker can access, edit and modify or even delete the other's user object by simply changing the values.
+ IDOR vulnerability is as severe as XSS and CSRF and is a type of vulnerability not easily discovered by automated testing.
+
+/*========================================*/
+
 Top Mobile Application Security Vulnerabilities:
 
 ** Weak Server Side Controls
