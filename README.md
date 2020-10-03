@@ -14,13 +14,13 @@
   - [Remote Code Execution (RCE)](#remote-code-execution-rce)
   - [CRLF Injection](#crlf-injection)
   - [LDAP Injection](#ldap-injection)
+  - [Server-Side Template Injection (SSTI)](#server-side-template-injection-ssti)
 - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
   - [Lack of Binary Protections](#lack-of-binary-protections)
   - [Insecure Data Storage](#insecure-data-storage)
   - [Unintended Data Leakage](#unintended-data-leakage)
   - [Poor Authorization and Authentication](#poor-authorization-and-authentication)
-  - [Server-Side Template Injection (SSTI)](#server-side-template-injection-ssti)
 
 
 
@@ -31,7 +31,7 @@
 - Insecure Direct Object References
 - Security Misconfiguration
 - Cross-Site Request Forgery(CSRF)
--Server-Side Template Injection
+- Server-Side Template Injection
 
 ### Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:
 
