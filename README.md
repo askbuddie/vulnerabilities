@@ -146,7 +146,8 @@ database information and gain information about the application to mount few mor
 
 ----
 
-bject, such as a file, directory, or database key as in URL or as a FORM parameter.
+### Insecure Direct Object References
+It occurs when a developer exposes a reference to an internal implementation object, such as a file, directory, or database key as in URL or as a FORM parameter.
 The attacker can use this information to access other objects and can create a future attack to access the unauthorized data.
 Using this vulnerability, an attacker can gain access to unauthorized internal objects,
 can modify data or compromise the application.
