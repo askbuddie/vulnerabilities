@@ -4,8 +4,6 @@
 
 
 ### Table Of Content
-- [Vulnerabilities](#vulnerabilities)
-    - [Table Of Content](#table-of-content)
   - [Web Application Security Vulnerabilities](#web-application-security-vulnerabilities)
     - [Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:](#cross-site-scripting-xss-reflected-persistent-and-dom-based-xss)
     - [SQL Injection (SQLi)](#sql-injection-sqli)
