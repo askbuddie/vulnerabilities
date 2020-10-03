@@ -24,8 +24,7 @@
     - [Server-Side Template Injection](#server-side-template-injection)
     - [DNS Zone Transfer (AXFR Vulnerability)](#dns-zone-transfer-axfr-vulnerability)
     - [XML Injection](#xml-injection)
-     - [HTTP Request Smuggling](#http-request-smuggling)
-    }
+    - [HTTP Request Smuggling](#http-request-smuggling)
   - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
     - [Weak Server Side Controls](#weak-server-side-controls)
     - [Lack of Binary Protections](#lack-of-binary-protections)
