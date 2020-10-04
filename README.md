@@ -24,6 +24,7 @@
     - [Server-Side Template Injection](#server-side-template-injection)
     - [DNS Zone Transfer (AXFR Vulnerability)](#dns-zone-transfer-axfr-vulnerability)
      - [HTTP Request Smuggling](#http-request-smuggling)
+    - [Race Condition](#race-condition)
   - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
     - [Weak Server Side Controls](#weak-server-side-controls)
     - [Lack of Binary Protections](#lack-of-binary-protections)
@@ -174,6 +175,11 @@ It is only possible on POST Method.
 
 ----
 
+### Race Condition
+
+A race condition is a flaw that produces an unexpected result when the timing of actions impact other actions. An example may be seen on a multithreaded application where actions are being performed on the same data. Race conditions, by their very nature, are difficult to test for.
+
+----
 ## Mobile Application Security Vulnerabilities:
 
 ### Weak Server Side Controls
