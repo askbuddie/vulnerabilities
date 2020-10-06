@@ -20,8 +20,9 @@
   - [Insecure Data Storage](#insecure-data-storage)
   - [Unintended Data Leakage](#unintended-data-leakage)
   - [Poor Authorization and Authentication](#poor-authorization-and-authentication)
-
-
+  - [Brute Force User Enumeration](#brute-force-user-enumeration)
+  - [Cryptography Improper Certificate Validation](cryptography-improper-certificate-validation)
+  
 
 ## Web Application Security Vulnerabilities
 - SQL Injection
@@ -115,5 +116,11 @@ LDAP Injection is an attack used to exploit web based applications that construc
 ----
 
 ### Poor Authorization and Authentication
+
+----
+### Brute Force User Enumeration
+
+----
+### Cryptography Improper Certificate Validation
 
 ----
