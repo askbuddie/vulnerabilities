@@ -142,7 +142,7 @@ By using this vulnerability, an attacker can steal, modify such weakly protected
 ### Security Misconfiguration
 Security Configuration must be defined and deployed for the application, frameworks, application server, web server, database server, and platform.
 If these are properly configured, an attacker can have unauthorized access to sensitive data or functionality.
-Making use of this vulnerability, the attacker can enumerate the underlying technology and application server version information,
+making use of this vulnerability, the attacker can enumerate the underlying technology and application server version information,
 database information and gain information about the application to mount few more attacks.
 
 ----
@@ -157,7 +157,7 @@ can modify data or compromise the application.
 
 ### Server-Side Template Injection
 
-Template engines are widely used by web applications to present dynamic data via web pages and emails. Unsafely embedding user input in templates enables Server-Side Template Injection, a frequently critical vulnerability that is extremely easy to mistake for Cross-Site Scripting (XSS), or miss entirely. Unlike XSS, Template Injection can be used to directly attack web servers' internals and often obtain Remote Code Execution (RCE), turning every vulnerable application into a potential pivot point. 
+Template Engines are widely used by web applications to present dynamic data via web pages and emails. Unsafely embedding user input in templates enables Server-Side Template Injection, a frequently critical vulnerability that is extremely easy to mistake for Cross-Site Scripting (XSS), or miss entirely. Unlike XSS, Template Injection can be used to directly attack web servers' internals and often obtain Remote Code Execution (RCE), turning every vulnerable application into a potential pivot point. 
 
 ----
 
