@@ -53,8 +53,7 @@ access controls such as the same-origin policy.
 
 SQL (Structured Query Language) injection is a vulnerability where an attacker can perform malicious query directly to the database 
 resulting in compromise of whole system. It normally happens when an application accepts user input and takes that to query directly 
-without any sort of sanitization and hence the databse takes it as a legitimate query and shows response based on it. 
-
+without any sort of sanitization and hence the databse takes it as a legitimate query and performs the task as per user input. An easy remediation for this is to use prepared statements or completely escape the user inputs.
 ----
 
 ### Cross-site Request Forgery (CSRF)
@@ -169,8 +168,7 @@ which gives them a lot of potential attack vectors.
 
 ### HTTP Request Smuggling
 
-HTTP Request Smuggling is technique for interfering the way a website processes sequences of HTTP requests that are received from one or morw users.
-It is only possible on POST Method.
+HTTP Request Smuggling is technique for interfering the way a website processes sequences of HTTP requests from front end servers (usually from loadbalancers or reverse proxies) to back end servers. When an attacker manages to send ambigious request to the server utilising this similar architecture resulting in the different interpretation of the same request by front end and back end, then this vulnerability arises. It usually happens on clear text versions of HTTP. 
 
 ----
 
