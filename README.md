@@ -178,6 +178,7 @@ It is only possible on POST Method.
 
 ### Weak Server Side Controls
 
+Threat agents include any entity that acts as a source of untrustworthy input to a backend API service, web service, or traditional web server application. Examples of such entities include: a user, malware, or a vulnerable app on the mobile device
 ----
 
 ### Lack of Binary Protections
