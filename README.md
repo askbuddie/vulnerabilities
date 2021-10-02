@@ -24,6 +24,8 @@
     - [Server-Side Template Injection](#server-side-template-injection)
     - [DNS Zone Transfer (AXFR Vulnerability)](#dns-zone-transfer-axfr-vulnerability)
      - [HTTP Request Smuggling](#http-request-smuggling)
+     - [RPO Attack](#rpo-attack)
+
   - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
     - [Weak Server Side Controls](#weak-server-side-controls)
     - [Lack of Binary Protections](#lack-of-binary-protections)
@@ -172,6 +174,10 @@ HTTP Request Smuggling is technique for interfering the way a website processes 
 
 ----
 
+### RPO Attack 
+RPO (Relative Path Overwrite) relative path coverage, as a relatively new type of attack, first proposed by Gareth Heyes in 2014, uses differences between URL resolutions between nginx servers, misconfigured Apache servers, and browsers. , And use the css or js of the relative path included in the file to read css or js across directories, or even parse a page that is not css or js as css or js, triggering further attacks such as xss.
+
+----
 ## Mobile Application Security Vulnerabilities:
 
 ### Weak Server Side Controls
