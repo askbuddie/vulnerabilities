@@ -178,20 +178,30 @@ It is only possible on POST Method.
 
 ### Weak Server Side Controls
 
+Weak Server Side Controls include almost everythig that a mobile appplication can do badly that does not tak place on the phone, that is it takes place on the server side. The problem in case of mobile developers is that mobile developers often do not always take traditional server-side security considerations into account. To add to that, while most of the threats are fairly similar to OSWAP, the abilities of attackers to manage and get control of a mobile device is very different from what it is on the web. Experience suggests that several factors have lead to a proliferation of server-side vulnerabilities. These factors include: rush to market, lack of security knowledge, easy access to frameworks that don’t prioritize security,lower security budgets for mobile applications, assumption that the mobile OS takes full responsibility for security, weakness due to cross-platform development and compilation, etc.
+
 ----
 
 ### Lack of Binary Protections
+
+A lack of binary protections within a mobile app exposes the application and it’s owner to a large variety of technical and business risks if the underlying application is insecure or exposes sensitive intellectual property. A lack of binary protections results in a mobile app that can be analyzed, reverse-engineered, and modified by an adversary in rapid fashion. However, an application with binary protection can still be reversed by a dedicated adversary and therefore binary protection is not a perfect security solution. At the end of the day, binary protection only slows down a security review.
 
 ----
 
 ### Insecure Data Storage
 
+Insecure data storage vulnerabilities occur when development teams assume that users or malware will not have access to a mobile device’s filesystem and subsequent sensitive information in data-stores on the device. Filesystems are easily accessible. Organizations should expect a malicious user or malware to inspect sensitive data stores. Usage of poor encryption libraries is to be avoided. Rooting or jailbreaking a mobile device circumvents any encryption protections. When data is not protected properly, specialized tools are all that is needed to view application data.
+
 ----
 
 ### Unintended Data Leakage
 
+Unintended data leakage occurs when a developer inadvertently places sensitive information or data in a location on the mobile device that is easily accessible by other apps on the device. First, a developer’s code processes sensitive information supplied by the user or the backend. During that processing, a side-effect (that is unknown to the developer) results in that information being placed into an insecure location on the mobile device that other apps on the device may have open access to. Typically, these side-effects originate from the underlying mobile device’s operating system (OS). This will be a very prevalent vulnerability for code produced by a developer that does not have intimate knowledge of how that information can be stored or processed by the underlying OS. It is easy to detect data leakage by inspecting all mobile device locations that are accessible to all apps for the app’s sensitive information.
+
 ----
 
 ### Poor Authorization and Authentication
+
+Poor or missing authentication schemes allow an adversary to anonymously execute functionality within the mobile app or backend server used by the mobile app. Weaker authentication for mobile apps is fairly prevalent due to a mobile device's input form factor. The form factor highly encourages short passwords that are often purely based on 4-digit PINs. In traditional web apps, users are expected to be online and authenticate in real-time with a backend server. Throughout their session, there is a reasonable expectation that they will have continuous access to the Internet. In mobile apps, users are not expected to be online at all times during their session. Mobile internet connections are much less reliable or predictable than traditional web connections. Hence, mobile apps may have uptime requirements that require offline authentication. This offline requirement can have profound ramifications on things that developers must consider when implementing mobile authentication.
 
 ----
