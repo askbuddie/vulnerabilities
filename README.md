@@ -27,6 +27,7 @@
   - [RPO Attack](#rpo-attack)
   - [XML Injection](#xml-injection)
   - [Race Condition](#race-condition)
+  - [Web Cache Deception](#web-cache-deception)
 
 - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
@@ -200,6 +201,23 @@ XML Injection is an attack technique used to manipulate or compromise the logic 
 ### Race Condition
 
 A race condition is a flaw that produces an unexpected result when the timing of actions impact other actions. An example may be seen on a multithreaded application where actions are being performed on the same data. Race conditions, by their very nature, are difficult to test for.
+
+---
+
+---
+
+### Web Cache Deception
+
+Modern Web Applications uses cache for storing information on client side so that another time insted of loading files from server, it can load from your cache instead, making the site speed faster. Generally, the files which are retireved often by a web application is cached to reduce latency from the server.
+
+However, if an attacker leverages this opportunity to cache the URL endpoints which may contatin sensitive information and thus making the information publicy accessible, the website is vulnerable to Web Cache Deception Attack.
+
+Let's take an example of a website :
+`https://www.samplewebsite.com/user-1/home.php`
+
+Here as we see that there are many users and contents of users are stored on a server, the website processes the endpoint dynamically, as it is different for different users. Such type of personalized data is not cached. But most static files such as stylesheets, scripts and text files are cached. So, what if we request a non-existent statis files such as `https://www.samplewebsite.com/user-1/home.php/style.css`.
+
+A **GET** request will be produced by a browser and if the web-app is not configured properly, the server returns the contents of `https://www.samplewebsite.com/user-1/home.php` which shouldn't be available. In this way an attacker can leverage a Web Cache Deception attack which may lead to information disclosure.
 
 ---
 
