@@ -26,6 +26,7 @@
   - [HTTP Request Smuggling](#http-request-smuggling)
   - [RPO Attack](#rpo-attack)
   - [XML Injection](#xml-injection)
+  - [Race Condition](#race-condition)
 
 - [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
@@ -193,6 +194,12 @@ RPO (Relative Path Overwrite) relative path coverage, as a relatively new type o
 ### XML Injection
 
 XML Injection is an attack technique used to manipulate or compromise the logic of an XML application or service. The injection of unintended XML content and/or structures into an XML message can alter the intend logic of the application. Further, XML injection can cause the insertion of malicious content into the resulting message/document.
+
+---
+
+### Race Condition
+
+A race condition is a flaw that produces an unexpected result when the timing of actions impact other actions. An example may be seen on a multithreaded application where actions are being performed on the same data. Race conditions, by their very nature, are difficult to test for.
 
 ---
 
