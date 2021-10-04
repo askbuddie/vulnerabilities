@@ -1,11 +1,21 @@
-# Vulnerabilities
+<!-- A curated list of every possible vulnerabilities in computer security. -->
 
-> List of every possible vulnerabilities in computer security.
+<h1 align="center">
+  Vulnerabilities
+</h1>
 
-### Table Of Content
+<p align="center">
+  <a href="https://github.com/askbuddie/vulnerabilities/stargazers" target="_blank"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/askbuddie/vulnerabilities?style=for-the-badge" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/askbuddie/vulnerabilities/network/members" target="_blank"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/askbuddie/vulnerabilities?style=for-the-badge" /></a>
+  <br />
+  <strong>A curated list of every possible vulnerabilities in computer security.</strong>
+</p>
+
+
+### Contents
 
 - [Web Application Security Vulnerabilities](#web-application-security-vulnerabilities)
-
   - [Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:](#cross-site-scripting-xss-reflected-persistent-and-dom-based-xss)
   - [SQL Injection (SQLi)](#sql-injection-sqli)
   - [Cross-site Request Forgery (CSRF)](#cross-site-request-forgery-csrf)
@@ -29,25 +39,18 @@
   - [Race Condition](#race-condition)
   - [Web Cache Deception](#web-cache-deception)
 
-- [Mobile Application Security Vulnerabilities:](#mobile-application-security-vulnerabilities)
+- [Mobile Application Security Vulnerabilities](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
   - [Lack of Binary Protections](#lack-of-binary-protections)
   - [Insecure Data Storage](#insecure-data-storage)
   - [Unintended Data Leakage](#unintended-data-leakage)
   - [Poor Authorization and Authentication](#poor-authorization-and-authentication)
+ 
+***
 
 ## Web Application Security Vulnerabilities
 
-- SQL Injection
-- Cross Site Scripting (XSS)
-- Broken Authentication & Session Management
-- Insecure Direct Object References
-- Security Misconfiguration
-- Cross-Site Request Forgery(CSRF)
-- Server-Side Template Injection
-- XML Injection
-
-### Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS:
+### Cross-site Scripting (XSS): Reflected, Persistent and DOM-based XSS
 
 A type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side
 scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass
@@ -204,8 +207,6 @@ A race condition is a flaw that produces an unexpected result when the timing of
 
 ---
 
----
-
 ### Web Cache Deception
 
 Modern Web Applications uses cache for storing information on client side so that another time insted of loading files from server, it can load from your cache instead, making the site speed faster. Generally, the files which are retireved often by a web application is cached to reduce latency from the server.
@@ -219,7 +220,7 @@ Here as we see that there are many users and contents of users are stored on a s
 
 A **GET** request will be produced by a browser and if the web-app is not configured properly, the server returns the contents of `https://www.samplewebsite.com/user-1/home.php` which shouldn't be available. In this way an attacker can leverage a Web Cache Deception attack which may lead to information disclosure.
 
----
+***
 
 ## Mobile Application Security Vulnerabilities:
 
@@ -251,4 +252,15 @@ Unintended data leakage occurs when a developer inadvertently places sensitive i
 
 Poor or missing authentication schemes allow an adversary to anonymously execute functionality within the mobile app or backend server used by the mobile app. Weaker authentication for mobile apps is fairly prevalent due to a mobile device's input form factor. The form factor highly encourages short passwords that are often purely based on 4-digit PINs. In traditional web apps, users are expected to be online and authenticate in real-time with a backend server. Throughout their session, there is a reasonable expectation that they will have continuous access to the Internet. In mobile apps, users are not expected to be online at all times during their session. Mobile internet connections are much less reliable or predictable than traditional web connections. Hence, mobile apps may have uptime requirements that require offline authentication. This offline requirement can have profound ramifications on things that developers must consider when implementing mobile authentication.
 
----
+
+***
+
+## References
+
+* [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/)
+* [OWASP Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/)
+* [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/)
+* [OWASP Top 10 Privacy Risks](https://owasp.org/www-project-top-10-privacy-risks/)
+* [OWASP Desktop App Security Top 10](https://owasp.org/www-project-desktop-app-security-top-10/)
+* [OWASP Docker Top 10](https://owasp.org/www-project-docker-top-10/)
+* [OWASP Serverless Top 10](https://owasp.org/www-project-serverless-top-10/)
