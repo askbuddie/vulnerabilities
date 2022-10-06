@@ -62,7 +62,7 @@ access controls such as the same-origin policy.
 
 SQL (Structured Query Language) injection is a vulnerability where an attacker can perform malicious query directly to the database
 resulting in compromise of whole system. It normally happens when an application accepts user input and takes that to query directly
-without any sort of sanitization and hence the databse takes it as a legitimate query and performs the task as per user input. An easy remediation for this is to use prepared statements or completely escape the user inputs.
+without any sort of sanitization and hence the database takes it as a legitimate query and performs the task as per user input. An easy remediation for this is to use prepared statements or completely escape the user inputs.
 
 ---
 
