@@ -38,6 +38,7 @@
   - [XML Injection](#xml-injection)
   - [Race Condition](#race-condition)
   - [Web Cache Deception](#web-cache-deception)
+  - [Insecure Deserialization](#insecure-deserialization)
 
 - [Mobile Application Security Vulnerabilities](#mobile-application-security-vulnerabilities)
   - [Weak Server Side Controls](#weak-server-side-controls)
@@ -219,6 +220,10 @@ Let's take an example of a website :
 Here as we see that there are many users and contents of users are stored on a server, the website processes the endpoint dynamically, as it is different for different users. Such type of personalized data is not cached. But most static files such as stylesheets, scripts and text files are cached. So, what if we request a non-existent statis files such as `https://www.samplewebsite.com/user-1/home.php/style.css`.
 
 A **GET** request will be produced by a browser and if the web-app is not configured properly, the server returns the contents of `https://www.samplewebsite.com/user-1/home.php` which shouldn't be available. In this way an attacker can leverage a Web Cache Deception attack which may lead to information disclosure.
+
+---
+### Insecure Deserialization
+Insecure deserialization is a type of vulnerability that arises when an attacker can manipulate the serialized object to cause unintended consequences in the program. This can lead to authentication bypasses or even RCE. For example, if an application takes a serialized object from the user and uses the data contained in it to determine who is logged in, a malicious user might be able to tamper with that object and authenticate as someone else. If the application uses an unsafe deserialization operation, the malicious user might even be able to embed code snippets in the object and get it executed during deserialization
 
 ***
 
